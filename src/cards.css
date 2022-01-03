@@ -22,12 +22,15 @@ body {
 .card {
   flex-direction: column;
   display: flex;
-  border: 1px solid #CAD0D2;
   border-radius: 4px;
   overflow: hidden;
   box-sizing: border-box;
 }
 
+.cardBorderSeparator{
+  border-left: 1px solid #D7DBDD;
+  border-right: 1px solid #D7DBDD;
+}
 
 .card__description {
   display: flex;
@@ -35,7 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 15px 0;
-
+  min-height: 90px;
 }
 
 .card__descriptionIcon {font-size: 32px; margin-bottom: 10px;}
@@ -67,7 +70,6 @@ body {
 
   .cardOption {
     flex-basis: 100%;
-    border-left: 1px solid #D7DBDD;
   }
 
   .cardGroup__cardDescription {
